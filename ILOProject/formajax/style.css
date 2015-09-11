@@ -1,0 +1,143 @@
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+/*input.required, textarea.required {
+	border: 1px solid #00A8E6;
+}*/
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+ .jobs_post_online_form {width:160px; text-align:right;}
+ .cv_registration_form {width:200px; text-align:right; }
+ 
+div.ajax__calendar table {border-spacing: 0px;}
+
+div.ajax__calendar td, div.ajax__calendar th {padding:0px;}
+
+/* xp theme */
+/*
+.ajax__tab_xp .ajax__tab_body {border:none}
+.ajax__tab_xp .ajax__tab_header 
+*{   
+    font-weight: bold;    
+       
+}
+.legendReg
+*{
+    font-weight: bold;
+    font-size:16px;    
+}
+*/
+.ajax__tab_xp .ajax__tab_body {
+   
+    border: none;   
+    padding: 8px;
+}
+
+.ajax__tab_xp .ajax__tab_header {
+    font-weight: bold;     
+    border-bottom: solid 1px #999999;
+    height:30px;
+    background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+    padding-right: 4px;
+    height: 25px;  
+    margin-right: 2px;
+    border-right: solid 1px #666666;
+    border-top: solid 1px #aaaaaa;
+     background-image :none;
+      background: url("../hire_fire_background_images/overlay.png") repeat-x scroll 0 0 #283D92;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: Arial,Tahoma,Verdana;
+    font-size: 12px;
+  
+   
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner span {
+    padding-left: 3px;   
+     background: url("../hire_fire_background_images/overlay.png") repeat-x scroll 0 0 #283D92;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: Arial,Tahoma,Verdana;
+    font-size: 12px;
+    font-weight: bold;     
+   
+}
+
+.ajax__tab_xp .ajax__tab_tab {
+    height: 15px;
+    padding: 4px;
+    margin: 0;
+    background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_hover .ajax__tab_outer {
+    background-color: #000;
+     background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_hover .ajax__tab_inner {
+    background-color: #EFEFEF;
+     background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+    height: 15px;
+    padding: 4px;
+    margin: 0;
+    background-image :none;
+}
+
+
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_hover .ajax__tab_tab 
+{
+	height:18px;
+	background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_outer {
+    background-color: #fff;
+    border-left: solid 1px #999999;
+     background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+    background-color: #fff; 
+     background-image :none;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_tab 
+{
+	height:18px;
+	background-image :none;
+}
+
